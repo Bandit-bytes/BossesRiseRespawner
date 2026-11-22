@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CEC",
+    "EDE",
+    "CEC"
+  ],
+  "key": {
+    "C": {
+      "item": "block_factorys_bosses:dragon_bone"
+    },
+    "E": {
+      "item": "minecraft:blaze_powder"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "bossesrise_respawner:ashlord_sigil",
+    "count": 1
+  }
+}

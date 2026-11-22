@@ -1,0 +1,8 @@
+{
+  "item.bossesrise_respawner.sirok_sigil": "Sirok's Sigil",
+  "item.bossesrise_respawner.skor_sigil": "Skor's Sigil",
+  "item.bossesrise_respawner.helvar_sigil": "Helvar's Sigil",
+  "item.bossesrise_respawner.ashlord_sigil": "Ashlord's Sigil",
+  "item.bossesrise_respawner.nerakyss_sigil": "Nerakyss's Sigil",
+  "tooltip.bossesrise_respawner.sigil_cooldown": "Once per day per structure."
+}

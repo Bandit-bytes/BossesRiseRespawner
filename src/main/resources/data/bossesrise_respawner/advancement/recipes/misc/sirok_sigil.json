@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bossesrise_respawner:sirok_sigil"
+      }
+    },
+    "killed_boss": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "block_factorys_bosses:sandworm"
+            }
+          }
+        ]
+      }
+    },
+    "has_boss_drop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "block_factorys_bosses:sandworm_gauntlet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "killed_boss",
+      "has_boss_drop"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bossesrise_respawner:sirok_sigil"
+    ]
+  }
+}

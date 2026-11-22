@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="bossesrise_respawner"
+version="0.1.0"
+displayName="Bosses' Rise Respawner"
+logoFile="logo.png"
+authors="Pixel Dream Studios"
+description='''Rematch the Bosses' Rise bosses. Use a boss's sigil at its home structure to summon it again, once per day per structure.
+Unofficial add-on; requires Bosses' Rise.'''
+[[dependencies.bossesrise_respawner]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.265,21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.bossesrise_respawner]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.bossesrise_respawner]]
+modId="block_factorys_bosses"
+type="required"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
